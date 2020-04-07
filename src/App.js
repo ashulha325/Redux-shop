@@ -1,10 +1,7 @@
-import React from 'react';
-const  App = () => {
-  return (
-    <div className="container">
-     <h1>hi</h1>
-    </div>
-  );
-}
+import React from "react";
+import "./store/store";
+const App = (props) => {
+  return <div className="container"></div>;
+};
 
 export default App;
